@@ -1,0 +1,43 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	
+	<title>Birbs</title>
+	<meta name="description" content="Raise some birbs!">
+	<meta name="author" content="Yffulf">
+	
+	<link rel="stylesheet" href="main.css">
+
+</head>
+
+<body>
+	Number of birbs: <span id="birbCount">0</span>
+	<br>
+	Coins: <span id="coins">0</span>
+	<br>
+	Total experience: <span id="experience">0</span>
+	<br> <br>
+	
+	<button onclick="buyBirb()">Buy a birb</button>
+	
+	<button onclick="train(1)">Train your birb</button>
+	<br>
+	Necessities:
+	<br>
+	Feeding:
+	<br>
+	Playing:
+	<br>
+	Cleaning:
+	
+	<br> <br>
+	<button onclick="saving()">Save</button>
+	<button onclick="load()">Load Game</button>
+	<button onclick="deleteSave()">Delete Saved Game</button>
+
+
+	<script src="main.js"></script>
+</body>
+</html>
